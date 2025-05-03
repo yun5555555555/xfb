@@ -967,6 +967,10 @@ about:Button("3",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rxn-xyz/Ohio./main/Ohio.lua",true))()
 end)
 
+about:Button("4",function()
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\115\99\114\105\112\116\115\46\118\105\115\117\114\117\115\46\100\101\118\47\111\104\105\111\47\115\111\117\114\99\101"))()
+end)
+
 local UITab27 = win:Tab("极速传奇",'7734068321')
 
 local about = UITab27:section("极速传奇",true)
@@ -977,40 +981,4 @@ end)
 
 about:Button("2",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/Legend-of-Speed-Auto-/main/GetPet"))()
-end)
-
-about:Button("越狱",function()
-loadstring(game:GetObjects("rbxassetid://3762448307")[1].Source)()
-end)
-
-local UITab28 = win:Tab("超级大力士模拟器",'7734068321')
-
-local about = UITab28:section("超级大力士模拟器",true)
-
-about:Button("超级大力士模拟器1",function()
-loadstring(game:HttpGet("https://pastefy.app/aO18ZEB9/raw"))()
-end)
-
-about:Button("超级大力士模拟器2",function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/hngamingroblox/scripts/main/strongman%20simulator'))()
-end)
-
-local UITab29 = win:Tab("感染力微笑",'7734068321')
-
-local about = UITab29:section("感染力微笑",true)
-
-about:Button("感染力微笑",function()
-loadstring(game:HttpGet("https://pastefy.app/z8mDJJIX/raw"))()
-end)
-
-local UITab30 = win:Tab("躲避",'7734068321')
-
-local about = UITab30:section("躲避",true)
-
-about:Button("躲避",function()
-loadstring(game:HttpGet("https://pastefy.app/BrdzWOKp/raw"))()
-end)
-
-about:Button("躲避",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dc2-masket27727/Mobile-s-Hub/main/Main/Hydra/Evade.exe"))();
 end)
